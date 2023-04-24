@@ -1,0 +1,32 @@
+/* ocultar botones favoritos y comparar, nivel stock y codigo producto */
+div.quick_btn,
+.add-to-favorites.wishlist,
+.add-to-compare,
+#productdetailsview .wrapper2 .fright .stock,
+#productdetailsview .wrapper2 .fright .code {
+    display: none !important;
+}
+
+
+/* estilizado de breadcrumbs */
+.top-breadcrumbs {
+    background: #65b231 !important;
+}
+
+.breadcrumb {
+    background-color: #65b231 !important;
+}
+
+.breadcrumb>.active {
+    color: #fff !important;
+}
+
+/* estilizado de enlace en footer */
+#t3footnav .customfoot1 a:hover {
+    color: #ccc !important;
+}
+
+/* igualar tamano de miniaturas en catalogo */
+.img-wrapper.big.second {
+    height: 140px !important;
+}
