@@ -1,0 +1,95 @@
+.product .product-inner .vm-product-rating-container .ratingbox {
+    display: none;
+}
+
+.product .product-inner .vm-product-rating-container .amount a {
+    display: none;
+}
+
+.vm-product-details-container .manufacturer,
+.vm-product-details-container .in-stock {
+    display: none;
+}
+
+.sp-megamenu-parent>li.active>a,
+.sp-megamenu-parent>li:hover>a {
+    font-weight: bold;
+}
+
+
+.fa-twitter:before {
+    content: "\f099";
+    color: #ffffff;
+}
+
+ul.social-icons a.google-plus {
+    border-bottom: 2px solid #d73d32;
+    display: none;
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+    content: "\f09a";
+    color: #ffffff;
+}
+
+ul.social-icons a.twitter {
+    border: #ffffff;
+    border-bottom: 2px solid #55acee;
+    display: none;
+}
+
+ul.social-icons a.facebook {
+    border: #ffffff;
+    border-bottom: 2px solid #3b5999;
+}
+
+.fa-flickr:before {
+    content: "\f16e";
+    color: #ffffff;
+}
+
+ul.social-icons a {
+    display: inline-block;
+    vertical-align: top;
+    height: 42px;
+    line-height: 40px;
+    width: 54px;
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
+    color: #010101;
+    border-bottom: 2px solid #3b5999;
+    border-left: none;
+}
+
+#style-layout3 .sp-vmsearch .sp-vmsearch-categorybox {
+    display: none !important;
+}
+
+.product .product-inner .vm-product-media-container .image-block>a img {
+    margin: auto;
+    width: auto;
+    border: solid 1px #a9a9a947;
+}
+
+.ask-a-question {
+    margin-top: 0px !important;
+}
+
+/* Agregar accent color a algunos elementos de la UI */
+.sp-module.vm_category .sp-module-title {
+    background-color: #e67318 !important;
+}
+
+div.vina-treeview-virtuemart .more-view {
+    color: #e67318 !important;
+}
+
+.product .product-inner .vm-product-media-container .product-status .label-pro.status-new {
+    background: #e67318 !important;
+}
+
+.product .product-inner .vm-product-media-container .product-status .label-pro.status-new:after {
+    border-right: 12px solid #e67318 !important;
+}
